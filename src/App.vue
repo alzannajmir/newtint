@@ -1,7 +1,11 @@
-<script setup></script>
+<script setup>
+import HeroVue from "./components/Hero.vue";
+</script>
 
 <template>
   <div>
-    <button class="btn btn-primary">Tombol Bootstrap</button>
+    <section id="Hero">
+      <HeroVue />
+    </section>
   </div>
 </template>
