@@ -1,4 +1,4 @@
-import "./assets/main.css";
+
 
 // BootstrapCSS
 import "bootstrap/dist/css/bootstrap.min.css";
