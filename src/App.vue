@@ -1,6 +1,7 @@
 <script setup>
-import NavbarVue from './components/Navbar.vue';
+import NavbarVue from "./components/Navbar.vue";
 import HeroVue from "./components/Hero.vue";
+import PurchaseVue from "./component/Purchase.vue";
 </script>
 
 <template>
@@ -11,6 +12,10 @@ import HeroVue from "./components/Hero.vue";
 
     <section id="Hero">
       <HeroVue />
+    </section>
+
+    <section id="Purchase">
+      <PurchaseVue />
     </section>
   </div>
 </template>
