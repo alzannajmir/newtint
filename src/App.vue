@@ -1,7 +1,7 @@
 <script setup>
 import NavbarVue from "./components/Navbar.vue";
 import HeroVue from "./components/Hero.vue";
-import PurchaseVue from "./component/Purchase.vue";
+import PurchaseVue from "./components/Purchase.vue";
 </script>
 
 <template>
