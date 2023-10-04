@@ -1,15 +1,15 @@
 <script setup>
+import NavbarVue from './components/Navbar.vue';
 import HeroVue from "./components/Hero.vue";
-import NavbarVue from './component/Navbar.vue';
 </script>
 
 <template>
-  <div>    
+  <div>
     <section id="Navbar">
-      <NavbarVue/>
+      <NavbarVue />
     </section>
-    
-  <section id="Hero">
+
+    <section id="Hero">
       <HeroVue />
     </section>
   </div>

@@ -20,6 +20,8 @@
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belgrano&display=swap');
 
 /* * {
   border: 1px #535353 dashed;
@@ -44,7 +46,7 @@
 
 .first,
 .second {
-  font-family: Black Ops One;
+  font-family: 'Black Ops One', cursive;
   font-size: 8.125rem;
   font-style: normal;
   font-weight: 400;
@@ -68,7 +70,7 @@
 
 .headline2 h4 {
   color: #2c2c2c;
-  font-family: Alice;
+  font-family: 'Alice', serif;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -77,7 +79,7 @@
 
 .headline2 h1 {
   color: #2c2c2c;
-  font-family: Belgrano;
+  font-family: 'Belgrano', serif;
   font-size: 3rem;
   font-style: normal;
   font-weight: 400;
@@ -91,7 +93,7 @@
 
 .headline2 span {
   color: #2c2c2c;
-  font-family: Belgrano;
+  font-family: 'Belgrano', serif;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
