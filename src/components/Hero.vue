@@ -1,6 +1,6 @@
 <template>
   <div class="Hero position-relative">
-    <img class="position-absolute hero-image" src="Hero.png" width="27%">
+    <img class="position-absolute hero-image" src="Hero.png" alt="hero-img" width="27%">
     <div class="d-flex">
       <div class="w-100">
         <h1 class="first">New</h1>
@@ -30,18 +30,19 @@
 .Hero {
   background: #f1f1f1;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
+  margin-top: 5rem;
 }
 
 .hero-image {
-  top: 1rem;
+  top: 4.8rem;
   right: 10rem;
 }
 
 .right-side {
   background-color: #AAAAAA;
   width: 32.25rem;
-  height: 80vh;
+  height: 90vh;
 }
 
 .first,
