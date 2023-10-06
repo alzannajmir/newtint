@@ -1,8 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-white">
-    <!-- Tambahkan class "bg-white" -->
-    <div class="container">
-      <a class="navbar-brand" href="#">NewTint</a>
+  <nav class="navbar navbar-expand-lg bg-white mx-auto fixed-top">
+    <div class="container-sm" style="max-width: 75%;">
+      <a class=" navbar-brand" href="#">NewTint</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,10 +22,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
 
+/* * {
+  border: 1px dashed gray;
+} */
+
 .navbar-brand {
-  width: 211.397px;
-  height: 44px;
-  flex-shrink: 0;
   color: #2c2c2c;
   font-family: 'Black Ops One', cursive;
   font-size: 48px;
