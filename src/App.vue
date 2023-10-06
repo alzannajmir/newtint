@@ -1,8 +1,38 @@
-<script setup></script>
+<script setup>
+import NavbarVue from "./components/Navbar.vue";
+import HeroVue from "./components/Hero.vue";
+import PurchaseVue from "./components/Purchase.vue";
+import FooterVue from "./components/Footer.vue";
+import Products from "./components/Products.vue";
+import AdvantageVue from "./components/Advantage.vue";
+
+</script>
 
 <template>
   <div>
-    <button class="btn btn-primary">Tombol Bootstrap</button>
+    <section id="Navbar">
+      <NavbarVue />
+    </section>
+
+    <section id="Hero">
+      <HeroVue />
+    </section>
+
+    <section id="Advantage">
+      <AdvantageVue />
+    </section>
+
+    <section id="Products">
+      <Products/>
+    </section>
+
+    <section id="Purchase">
+      <PurchaseVue />
+    </section>
+    
+       <section id="Footer">
+      <FooterVue />
+       </section>
   </div>
 </template>
 
