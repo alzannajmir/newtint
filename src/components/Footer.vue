@@ -7,7 +7,11 @@
         <div>
           <h3>About Us</h3>
           <p class="lead-about">
-            Kami adalah perusahaan yang bergerak di bidang...
+            Tinted in Indonesia! Produk yang nyaman untuk dipakai pada negara
+            tropis, baik pada musim kemarau maupun musim hujan, tentunya
+            menggunakan material yang terbaik di kelasnya, melalui tahapan
+            quality control yang teliti, dan diproduksi di konveksi yang
+            terpercaya
           </p>
         </div>
         <div>
