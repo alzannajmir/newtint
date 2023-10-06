@@ -3,6 +3,8 @@ import NavbarVue from "./components/Navbar.vue";
 import HeroVue from "./components/Hero.vue";
 import PurchaseVue from "./components/Purchase.vue";
 import FooterVue from "./components/Footer.vue";
+import AdvantageVue from "./components/Advantage.vue";
+
 </script>
 
 <template>
@@ -15,12 +17,15 @@ import FooterVue from "./components/Footer.vue";
       <HeroVue />
     </section>
 
+    <section id="Advantage">
+      <advantageVue />
+    </section>
+
     <section id="Purchase">
       <PurchaseVue />
     </section>
-
-    <section id="Footer">
+    
+       <section id="Footer">
       <FooterVue />
-    </section>
   </div>
 </template>
