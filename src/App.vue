@@ -2,7 +2,9 @@
 import NavbarVue from "./components/Navbar.vue";
 import HeroVue from "./components/Hero.vue";
 import PurchaseVue from "./components/Purchase.vue";
+import FooterVue from "./components/Footer.vue";
 import AdvantageVue from "./components/Advantage.vue";
+
 </script>
 
 <template>
@@ -22,5 +24,8 @@ import AdvantageVue from "./components/Advantage.vue";
     <section id="Purchase">
       <PurchaseVue />
     </section>
+    
+       <section id="Footer">
+      <FooterVue />
   </div>
 </template>
