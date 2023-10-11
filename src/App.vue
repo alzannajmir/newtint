@@ -3,13 +3,14 @@ import NavbarVue from "./components/Navbar.vue";
 import HeroVue from "./components/Hero.vue";
 import PurchaseVue from "./components/Purchase.vue";
 import FooterVue from "./components/Footer.vue";
-import Products from "./components/Products.vue";
 import AdvantageVue from "./components/Advantage.vue";
+import Information from "./components/Information.vue";
+import Products from "./components/Products.vue";
 
 </script>
 
 <template>
-  <div>
+  <div class="overflow-hidden">
     <section id="Navbar">
       <NavbarVue />
     </section>
@@ -26,14 +27,19 @@ import AdvantageVue from "./components/Advantage.vue";
       <Products/>
     </section>
 
+    <section id="Information">
+      <Information />
+    </section>
+
     <section id="Purchase">
       <PurchaseVue />
     </section>
-    
-       <section id="Footer">
+
+    <section id="Footer">
       <FooterVue />
-       </section>
+    </section>
   </div>
+
 </template>
 
 <style scoped>

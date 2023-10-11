@@ -1,22 +1,20 @@
 <template>
   <div class="Hero position-relative">
-    <img class="position-absolute hero-image" src="Hero.png" alt="hero-img" width="27%">
-    <div class="d-flex">
-      <div class="w-75">
-        <h1 class="first">New</h1>
-        <div class="headline2">
-          <h4>COLLECTION'S</h4>
-          <h1>NewTint Fashion</h1>
-          <hr />
-          <p>Explore All Apparel</p>
-        </div>
+    <div>
+      <div class="first">New</div>
+      <div class="headline2 mx-auto">
+        <h4>COLLECTION'S</h4>
+        <h1>NewTint Fashion</h1>
+        <hr />
+        <p>Explore All Apparel</p>
       </div>
-      <div class="flex-shrink-2 right-side">
+      <div>
         <h1 class="second">Tint</h1>
       </div>
     </div>
   </div>
 </template>
+
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
@@ -29,20 +27,10 @@
 
 .Hero {
   background: #f1f1f1;
-  width: 100%;
+  background-image: url('assets/hero.jpg');
+  background-size: cover;
   height: 90vh;
   margin-top: 5rem;
-}
-
-.hero-image {
-  top: 4.8rem;
-  right: 10rem;
-}
-
-.right-side {
-  background-color: #AAAAAA;
-  width: 32.25rem;
-  height: 90vh;
 }
 
 .first,
@@ -55,22 +43,25 @@
 }
 
 .second {
-  color: rgba(217, 217, 217, 0.80);
+  color: lightgray;
+  text-shadow: 2px 2px 3px black;
 }
 
 .first {
-  color: rgba(83, 83, 83, 0.33);
+  color: lightgray;
+  text-shadow: 2px 2px 3px black;
   text-align: end;
 }
 
 .headline2 {
   width: max-content;
   text-align: center;
-  margin: auto;
+  color: whitesmoke;
+  text-shadow: 2px 2px 3px black;
 }
 
 .headline2 h4 {
-  color: #2c2c2c;
+  color: whitesmoke;
   font-family: 'Alice', serif;
   font-size: 1.5rem;
   font-style: normal;
@@ -79,7 +70,7 @@
 }
 
 .headline2 h1 {
-  color: #2c2c2c;
+  color: whitesmoke;
   font-family: 'Belgrano', serif;
   font-size: 3rem;
   font-style: normal;

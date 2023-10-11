@@ -1,9 +1,9 @@
 <!-- Footer.vue -->
 <template>
   <footer>
-    <div class="container">
-      <img src="image 6.png" alt="" />
-      <div class="content d-flex justify-content-between mt-5">
+    <div class="w-75 mx-auto">
+      <img src="image 6.png" alt="gambar6" />
+      <div class="content d-flex justify-content-between mt-5 flex-wrap gap-4">
         <div>
           <h3>About Us</h3>
           <p class="lead-about">
@@ -37,6 +37,12 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width: 991.98px) {
+  .lead-about {
+    display: inline;
+  }
+}
+
 .content {
   justify-content: space-between;
 }
@@ -53,7 +59,6 @@ footer {
 
 footer h3 {
   color: #f1f1f1;
-  text-align: justify;
   font-family: Koh Santepheap;
   font-size: 28px;
   font-style: normal;
