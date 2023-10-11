@@ -1,5 +1,4 @@
 <template>
-
   <div class="container">
     <div class="d-flex justify-content-center gap-5 mt-5 mb-4">
       <a class="nav-link" :class="{ 'active': selectedCategory === 'T-shirt' }" @click="setCategory('T-shirt')"
@@ -26,24 +25,15 @@
         </div>
       </div>
     </div>
-    <!-- <div class="d-flex justify-content-center gap-5 mt-5 mb-4">
-  <button @click="prevPage" :disabled="currentPage.value === 0">Previous</button>
-  <button @click="nextPage" :disabled="currentPage.value === maxPage - 1">Next</button>
-</div> -->
   </div>
 </template>
 
 <style scoped>
-
 @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
 
-.headline{
-  color: #2C2C2C;
-font-family: 'Koh Santepheap', serif;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.active {
+  color: red;
+  text-decoration: line-through;
 }
 
 .divider {
@@ -51,6 +41,7 @@ line-height: normal;
   width: 1px;
   height: 20px;
 }
+
 .card-text {
   font-size: 13px;
 }
@@ -66,6 +57,7 @@ line-height: normal;
   font-size: 13px;
   color: #2C2C2C;
 }
+
 .nav-link:hover {
   color: red;
 }
@@ -170,7 +162,7 @@ const cards = ref([
     price: 'Rp.100.000,.',
     category: 'T-shirt',
   },
-    
+
   // CELANA 
 
   {

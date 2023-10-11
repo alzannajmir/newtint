@@ -1,16 +1,10 @@
 <template>
-  <div class="Hero position-relative">
-    <div>
-      <div class="first">New</div>
-      <div class="headline2 mx-auto">
-        <h4>COLLECTION'S</h4>
-        <h1>NewTint Fashion</h1>
-        <hr />
-        <p>Explore All Apparel</p>
-      </div>
-      <div>
-        <h1 class="second">Tint</h1>
-      </div>
+  <div class="Hero">
+    <div class="headline2 mx-auto">
+      <h4>COLLECTION'S</h4>
+      <h1>NewTint Fashion</h1>
+      <hr />
+      <p>Explore All Apparel</p>
     </div>
   </div>
 </template>
@@ -33,27 +27,8 @@
   margin-top: 5rem;
 }
 
-.first,
-.second {
-  font-family: 'Black Ops One', cursive;
-  font-size: 8.125rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.second {
-  color: lightgray;
-  text-shadow: 2px 2px 3px black;
-}
-
-.first {
-  color: lightgray;
-  text-shadow: 2px 2px 3px black;
-  text-align: end;
-}
-
 .headline2 {
+  padding-top: 12rem;
   width: max-content;
   text-align: center;
   color: whitesmoke;
