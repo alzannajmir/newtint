@@ -3,6 +3,7 @@ import NavbarVue from "./components/Navbar.vue";
 import HeroVue from "./components/Hero.vue";
 import PurchaseVue from "./components/Purchase.vue";
 import AdvantageVue from "./components/Advantage.vue";
+import Information from "./components/Information.vue";
 </script>
 
 <template>
@@ -16,7 +17,11 @@ import AdvantageVue from "./components/Advantage.vue";
     </section>
 
     <section id="Advantage">
-      <advantageVue />
+      <AdvantageVue />
+    </section>
+
+    <section id="Information">
+      <Information />
     </section>
 
     <section id="Purchase">

@@ -1,6 +1,6 @@
 <template>
     <div class="advantage pt-4 py-2">
-        <div class="w-75 mx-auto d-flex justify-content-between align">
+        <div class="w-75 mx-auto d-flex flex-wrap justify-content-evenly align">
             <div>
                 <img src="advantage1.png" alt="advantage-1">
                 <strong>Quality Material</strong>
