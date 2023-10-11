@@ -1,10 +1,10 @@
 <template>
   <div class="d-flex purchase align-items-center flex-wrap gap-3 mt-5">
     <div class="lead d-flex gap-3 align-items-center">
-      <img src="cart.png" alt="" />
+      <img src="/keranjang.png" alt="cartlogo" />
       <p class="mb-0">Want to purchase our products</p>
     </div>
-    <button type="button" class="btn btn-outline-dark">Purchase Now</button>
+    <a href="https://shopee.co.id/newtint" class="btn btn-outline-dark">Purchase Now</a>
   </div>
 </template>
 <style scoped>

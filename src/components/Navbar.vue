@@ -8,10 +8,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link" aria-current="page" href="#">Jacket</a>
-          <a class="nav-link" href="#">T-shirt</a>
-          <a class="nav-link" href="#">Pants</a>
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#Advantage">Advantage</a>
+          <a class="nav-link" href="#Products">Products</a>
+          <a class="nav-link" href="#Contact">Contact</a>
         </div>
       </div>
     </div>

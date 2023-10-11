@@ -2,7 +2,7 @@
 <template>
   <footer>
     <div class="w-75 mx-auto">
-      <img src="image 6.png" alt="gambar6" />
+      <img src="/image6.png" alt="gambar6" />
       <div class="content d-flex justify-content-between mt-5 flex-wrap gap-4">
         <div>
           <h3>About Us</h3>
@@ -16,13 +16,13 @@
         </div>
         <div>
           <h3>Shop</h3>
-          <p>tiktok.com/NewTint</p>
-          <p>shopee.com/NewTint</p>
+          <a class="text-white d-block" href="https://www.tiktok.com/@newtintshop">tiktok.com/NewTint</a>
+          <a class="text-white d-block" href="https://shopee.co.id/newtint">shopee.com/NewTint</a>
         </div>
         <div>
           <h3>Contact Us</h3>
-          <p>newtint.gmail.com</p>
-          <p>+62 837-8236-991</p>
+          <a>newtint@gmail.com</a>
+          <a>+62 837-8236-991</a>
         </div>
       </div>
     </div>

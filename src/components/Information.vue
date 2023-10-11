@@ -9,15 +9,15 @@
                     <p class="mt-1">Up to 30%</p>
                     <hr>
                 </div>
-                <button class="w-50 mx-auto text-center bg-dark text-white fw-bold">Shop Now</button>
+                <a href="https://shopee.co.id/newtint" class="w-50 mx-auto text-center bg-dark text-white fw-bold">Shop Now</a>
             </div>
             <div class="info-2 d-flex justify-content-end align-items-center flex-fill p-2">
                 <div class="text-center">
                     <h3>Summer Sale</h3>
                     <h1>Get 30% Discount</h1>
-                    <button class="px-4 py-2">Get Now</button>
+                    <a href="https://shopee.co.id/newtint" class="px-4 py-2">Get Now</a>
                 </div>
-                <img class="info2-img" src="information.png" alt="info">
+                <img class="info2-img" src="/information.png" alt="info">
             </div>
         </div>
     </div>
@@ -25,7 +25,7 @@
         <div class="info-3 flex-fill p-2">
             <h1 class="text-center">NewTint</h1>
             <div class="d-flex justify-content-center gap-5">
-                <img class="logo3" src="logo.png" alt="logo">
+                <img class="logo3" src="/logo.png" alt="logo">
                 <p>Welcome to New Tint Official Store! Ready to Tint Your Days? <br><br> Jam Operasional Toko:
                     Senin-Minggu, <br>
                     09.00 – 19.00 WIB </p>

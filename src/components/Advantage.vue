@@ -2,17 +2,17 @@
     <div class="advantage pt-4 py-2">
         <div class="w-75 mx-auto d-flex flex-wrap justify-content-evenly align">
             <div>
-                <img src="advantage1.png" alt="advantage-1">
+                <img src="/advantage1.png" alt="advantage-1">
                 <strong>Quality Material</strong>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div>
-                <img src="advantage2.png" alt="advantage-2">
+                <img src="/advantage2.png" alt="advantage-2">
                 <strong>Eye Catching Design</strong>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div>
-                <img src="advantage3.png" alt="advantage-3">
+                <img src="/advantage3.png" alt="advantage-3">
                 <strong>Affordable Price</strong>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>

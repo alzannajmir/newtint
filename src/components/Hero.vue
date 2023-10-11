@@ -21,7 +21,7 @@
 
 .Hero {
   background: #f1f1f1;
-  background-image: url('assets/hero.jpg');
+  background-image: url('/assets/hero.jpg');
   background-size: cover;
   height: 90vh;
   margin-top: 5rem;
