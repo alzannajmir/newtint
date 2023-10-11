@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="w-75 mx-auto">
     <div class="d-flex justify-content-center gap-5 mt-5 mb-4">
       <a class="nav-link" :class="{ 'active': selectedCategory === 'T-shirt' }" @click="setCategory('T-shirt')"
         href="#T-Sh  irt">T-shirt</a>
@@ -16,7 +16,7 @@
           <div class="card-menu">
             <img :src="card.image" class="card-img-top" alt="Card Image">
             <div class="card-text mt-3">
-              <p>{{ card.description }}</p>
+              <strong>{{ card.description }}</strong>
             </div>
             <div class="price mb-5">
               <p>{{ card.price }}</p>
@@ -48,8 +48,8 @@
 
 .card-menu {
   box-shadow: 0px 4px 10px rgba(128, 109, 97, 0.5);
-  width: 230px;
-  height: 328px;
+  width: 200px;
+  height: 280px;
   margin: auto;
 }
 
