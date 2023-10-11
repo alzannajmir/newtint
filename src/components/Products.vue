@@ -1,5 +1,6 @@
 <template>
-  <div class="w-75 mx-auto">
+  <div class="w-75 mx-auto py-5">
+        <h2 class="headline-2 text-center">Our Products</h2>
     <div class="d-flex justify-content-center gap-5 mt-5 mb-4">
       <a class="nav-link" :class="{ 'active': selectedCategory === 'T-shirt' }" @click="setCategory('T-shirt')"
         href="#T-Sh  irt">T-shirt</a>

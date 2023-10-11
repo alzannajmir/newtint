@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex purchase align-items-center flex-wrap gap-3">
+  <div class="d-flex purchase align-items-center flex-wrap gap-3 mt-5">
     <div class="lead d-flex gap-3 align-items-center">
       <img src="cart.png" alt="" />
       <p class="mb-0">Want to purchase our products</p>
