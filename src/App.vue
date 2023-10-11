@@ -5,7 +5,8 @@ import PurchaseVue from "./components/Purchase.vue";
 import FooterVue from "./components/Footer.vue";
 import AdvantageVue from "./components/Advantage.vue";
 import Information from "./components/Information.vue";
-import Product from "./components/Products.vue";
+import Products from "./components/Products.vue";
+
 </script>
 
 <template>
@@ -22,14 +23,13 @@ import Product from "./components/Products.vue";
       <AdvantageVue />
     </section>
 
-    <section id="Product">
-      <Product />
+    <section id="Products">
+      <Products/>
     </section>
 
     <section id="Information">
       <Information />
     </section>
-
 
     <section id="Purchase">
       <PurchaseVue />
@@ -39,5 +39,8 @@ import Product from "./components/Products.vue";
       <FooterVue />
     </section>
   </div>
+
 </template>
 
+<style scoped>
+</style>

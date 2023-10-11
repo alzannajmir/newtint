@@ -1,4 +1,5 @@
 <template>
+
   <div class="container">
     <div class="d-flex justify-content-center gap-5 mt-5 mb-4">
       <a class="nav-link" :class="{ 'active': selectedCategory === 'T-shirt' }" @click="setCategory('T-shirt')"
@@ -33,6 +34,17 @@
 </template>
 
 <style scoped>
+
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
+
+.headline{
+  color: #2C2C2C;
+font-family: 'Koh Santepheap', serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 
 .divider {
   background-color: #2c2c2c;
