@@ -2,7 +2,7 @@
 <template>
   <footer>
     <div class="w-75 mx-auto">
-      <img src="/image6.png" alt="gambar6" />
+      <!-- <img src="/image6.png" alt="gambar6" /> -->
       <div class="content d-flex justify-content-between mt-5 flex-wrap gap-4">
         <div>
           <h3>About Us</h3>

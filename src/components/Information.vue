@@ -15,18 +15,20 @@
                 <div class="text-center">
                     <h3>Summer Sale</h3>
                     <h1>Get 30% Discount</h1>
-                    <a href="https://shopee.co.id/newtint" class="px-4 py-2">Get Now</a>
+                    <a href="https://shopee.co.id/newtint" class="px-4 py-2 get-button">Get Now</a>
                 </div>
                 <img class="info2-img" src="/information.png" alt="info">
             </div>
         </div>
     </div>
     <div class=" mx-auto mb-4 w-75">
-        <div class="info-3 flex-fill p-2">
+        <div class="info-3 flex-fill px-2">
             <h1 class="text-center">NewTint</h1>
             <div class="d-flex justify-content-center gap-5">
-                <img class="logo3" src="/logo.png" alt="logo">
-                <p>Welcome to New Tint Official Store! Ready to Tint Your Days? <br><br> Jam Operasional Toko:
+                <img class="logo3" src="/image6.png" alt="logo">
+                <p>Welcome to New Tint Official Store! <br>
+                    Ready to Tint Your Days? <br>
+                    <br> Jam Operasional Toko:
                     Senin-Minggu, <br>
                     09.00 – 19.00 WIB </p>
             </div>
@@ -55,7 +57,12 @@
     background-color: #D9D9D980;
     height: 15rem;
 }
-
+.get-button{
+    text-decoration: none;
+    color: #2C2C2C;
+    font-weight: bold;
+    outline: #2C2C2C 1px dashed;
+}
 .info-3 p {
     width: fit-content;
 }
