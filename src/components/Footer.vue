@@ -21,8 +21,9 @@
         </div>
         <div>
           <h3>Contact Us</h3>
-          <a>newtint@gmail.com</a>
-          <a>+62 837-8236-991</a>
+         <a href="mailto:newtint17@gmail.com">newtint17@gmail.com</a><br>
+         <a href="https://wa.me/6285220895999">+62 852-2089-5999</a>
+
         </div>
       </div>
     </div>
@@ -74,5 +75,8 @@ footer p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+footer a {
+  color: #f1f1f1;
 }
 </style>
