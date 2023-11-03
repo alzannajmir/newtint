@@ -4,17 +4,17 @@
             <div>
                 <img src="/advantage1.png" alt="advantage-1">
                 <strong>Quality Material</strong>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>A good composition of materials enhances the durability and strength of a product.</p>
             </div>
             <div>
                 <img src="/advantage2.png" alt="advantage-2">
                 <strong>Eye Catching Design</strong>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>A design or visual element that is striking and immediately captures the viewer's attention.</p>
             </div>
             <div>
                 <img src="/advantage3.png" alt="advantage-3">
                 <strong>Affordable Price</strong>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Refers to a cost or price that is reasonably low and within the financial.</p>
             </div>
         </div>
     </div>

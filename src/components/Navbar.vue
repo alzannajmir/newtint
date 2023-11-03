@@ -29,7 +29,7 @@
 .navbar-brand {
   color: #2c2c2c;
   font-family: 'Black Ops One', cursive;
-  font-size: 48px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
